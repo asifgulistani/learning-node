@@ -3,7 +3,7 @@ var app = express();
 var fs = require('fs');
 var url = require('url');
 
-var PORT = 3000;
+var PORT = process.env.PORT || 3000;
 
 var middlewares = {
     logger: function(req, res, next){
