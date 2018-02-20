@@ -5,7 +5,7 @@ var mongoose = require('mongoose');
 var fs = require('fs');
 
 // connet to mongodb
-mongoose.connect('mongodb://localhost/learn-mongo');
+mongoose.connect('mongodb://learn-mongo:learn@ds243008.mlab.com:43008/learn-mongo');
 var db = mongoose.connection;
 
 //var Person = require('./models/person.js');
